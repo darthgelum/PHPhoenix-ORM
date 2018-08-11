@@ -1,0 +1,25 @@
+{
+    "name": "phphoenix/orm",
+    "description": "ORM library for PHPhoenix",
+    "keywords": ["orm", "database"],
+    "homepage": "https://github.com/darthgelum/PHPhoenix",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Roman Tsiupa",
+            "email": "draconyster@gmail.com",
+            "homepage": "http://dracony.org"
+        },
+        {
+            "name": "Dmitrov Philipp",
+            "email": "dmitrov.philipp@yandex.ru",
+            "homepage": "http://increw.ru"
+        }
+    ],
+    "require": {
+        "phphoenix/db": "2.*@dev"
+    },
+    "autoload": {
+        "psr-0": {"PHPhoenix": "classes/"}
+    }
+}
